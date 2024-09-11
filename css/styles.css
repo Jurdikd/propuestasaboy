@@ -1,0 +1,44 @@
+body{
+    background: #afcfee;
+}
+
+.navbar {
+    background-color: #00458b00; /* Color de fondo de la barra */
+}
+
+.navbar-brand img {
+    height: 50px; /* Ajusta el tamaño del logo */
+}
+
+/* Fondo blanco con bordes redondeados para el menú de texto */
+
+.navbar-nav .nav-link:hover {
+    background-color:  #00468b; /* Cambio de color en hover */
+    
+    color: #ffffff;
+    transition: all 1.s;
+}
+
+.iconos-navbar {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #ffffff; /* Color de los íconos */
+}
+
+.iconos-navbar:hover {
+    color: #1779da; /* Cambio de color en hover */
+}
+
+/* Estilo para mantener los íconos alineados con el menú en pantallas grandes */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    font-size: 2em;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #4a2b13; /* Color del texto */
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 25px; /* Bordes redondeados */
+}
