@@ -1,7 +1,17 @@
-body{
-    background: #afcfee;
+
+.header{
+    background: 
+        url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
+    /*height: 100vh;*/
+    margin: 0;
 }
 
+.background-image {
+    background-image: url('../img/texturas/textura-azul.svg'), linear-gradient(to right, #64CCEE, #308DC2);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
 .navbar {
     background-color: #00458b00; /* Color de fondo de la barra */
 }
@@ -41,4 +51,36 @@ body{
     margin-left: 10px;
     padding: 10px 20px;
     border-radius: 25px; /* Bordes redondeados */
+}
+/* colores de texto*/
+
+.text-marron{
+    color: #3C2415 !important;
+}
+
+/* colores de fondo*/
+.bg-marron{
+    background: #3C2415 !important;
+}
+
+/* font size*/
+.font-size-1{
+    font-size: 0.5em !important;
+}
+.font-size-2{
+    font-size: 2em !important;
+}
+.font-size-3{
+    font-size: 3em !important;
+}
+.font-size-4{
+    font-size: 4em !important;
+}
+.font-size-5{
+    font-size: 5em !important;
+}
+
+/* botones */
+.btn-rounded{
+    border-radius: 1em;
 }
