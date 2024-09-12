@@ -1,4 +1,3 @@
-
 .header{
     background: 
         url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
@@ -6,12 +5,6 @@
     margin: 0;
 }
 
-.background-image {
-    background-image: url('../img/texturas/textura-azul.svg'), linear-gradient(to right, #64CCEE, #308DC2);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
 .navbar {
     background-color: #00458b00; /* Color de fondo de la barra */
 }
@@ -95,10 +88,20 @@
 .radio-1{
     border-radius: 1em;
 }
-/*margenes*/
-.m-star{
-    margin-right: 5rem !important;
-}
+
+/* img */
+
+.img-cover {
+    object-fit: cover;
+  }
+
+  /*cards*/
+  .card-title-producto{
+    margin-bottom: 0.5rem !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
 /* botones */
 .btn-rounded{
     border-radius: 1em;
@@ -132,3 +135,45 @@
 .btn-heart:hover{
     transform: scale(1.1);
 }
+
+/* medias querys*/
+
+/* Para pantallas extra pequeñas (menos de 576px) */
+@media (max-width: 575.98px) {
+    .iconos-navbar {
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+    
+  }
+  
+  /* Para pantallas pequeñas (de 576px a 767.98px) */
+  @media (min-width: 576px) {
+    .iconos-navbar {
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+  }
+  
+  /* Para pantallas medianas (de 768px a 991.98px) */
+  @media (min-width: 768px) {
+    .iconos-navbar {
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+    
+    
+  }
+  
+  /* Para pantallas grandes (de 992px a 1199.98px) */
+  @media (min-width: 992px) {
+   /*margenes*/
+.m-star{
+    margin-right: 5rem !important;
+}
+  }
+  
+  /* Para pantallas extra grandes (de 1200px en adelante) */
+  @media (min-width: 1200px) {
+   
+  }
