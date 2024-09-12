@@ -52,6 +52,18 @@
     padding: 10px 20px;
     border-radius: 25px; /* Bordes redondeados */
 }
+/*sections*/
+.section-1{
+    background: 
+        url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
+    /*height: 100vh;*/
+    margin: 0;
+}
+/* transparencias*/
+.bg-transparent{
+    background: transparent !important;
+    border: none !important;
+}
 /* colores de texto*/
 
 .text-marron{
@@ -79,8 +91,40 @@
 .font-size-5{
     font-size: 5em !important;
 }
-
+/* radios*/
+.radio-1{
+    border-radius: 1em;
+}
 /* botones */
 .btn-rounded{
     border-radius: 1em;
+}
+.btn-card{
+    background: linear-gradient(to right, #64CCEE, #308DC2) !important;
+}
+.btn-star{
+    color: #3C2415;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.btn-star:hover{
+    color: #854d2b;
+    border-color: #ac673c;
+}
+
+.btn-heart{
+    color: #3C2415;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.btn-heart:hover{
+    transform: scale(1.1);
 }
