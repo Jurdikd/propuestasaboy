@@ -95,6 +95,10 @@
 .radio-1{
     border-radius: 1em;
 }
+/*margenes*/
+.m-star{
+    margin-right: 8rem !important;
+}
 /* botones */
 .btn-rounded{
     border-radius: 1em;
