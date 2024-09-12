@@ -23,7 +23,7 @@
 /* Fondo blanco con bordes redondeados para el menú de texto */
 
 .navbar-nav .nav-link:hover {
-    background-color:  #00468b; /* Cambio de color en hover */
+    background-color:  #1779da; /* Cambio de color en hover */
     
     color: #ffffff;
     transition: all 1.s;
