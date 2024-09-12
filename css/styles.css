@@ -46,11 +46,23 @@
     border-radius: 25px; /* Bordes redondeados */
 }
 /*sections*/
+
 .section-1{
     background: 
         url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
     /*height: 100vh;*/
     margin: 0;
+}
+.section-2{
+    background: #f1f1f1;
+    margin: 0;
+}
+.info-nutricional .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.info-nutricional .col-6:first-child {
+    font-weight: bold;
 }
 /* transparencias*/
 .bg-transparent{
