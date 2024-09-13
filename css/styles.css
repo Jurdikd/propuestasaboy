@@ -56,7 +56,12 @@
 .section-2{
     margin: 0;
 }
-
+.section-3{
+    background: 
+        url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
+    /*height: 100vh;*/
+    margin: 0;
+}
 .info-nutricional .row {
     border-bottom: 1px solid #ccc;
     padding: 10px;
@@ -113,6 +118,30 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  /* Estilos personalizados */
+.image-box {
+    /*width: 40%;*/
+    background: linear-gradient(to right, #64CCEE, #308DC2) !important;
+    border-radius: 10px;
+    height: 24.375em;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .rating i {
+    color: #64CCEE;
+    font-size: 1.5rem;
+  }
+    
+  .map-container {
+    flex-grow: 1;
+    height: 100%;
+    margin-left: -1rem !important;
+  }
   
 /* botones */
 .btn-rounded{
@@ -156,7 +185,9 @@
         font-size: 1.5rem;
         margin-left: 0rem;
     }
-    
+    .image-box {
+        height: 9.375em;
+      }
   }
   
   /* Para pantallas pequeñas (de 576px a 767.98px) */
@@ -165,6 +196,9 @@
         font-size: 2rem;
         margin-left: 0.5rem;
     }
+    .image-box {
+        height: 9.375em;
+      }
   }
   
   /* Para pantallas medianas (de 768px a 991.98px) */
@@ -173,19 +207,27 @@
         font-size: 2rem;
         margin-left: 0.5rem;
     }
-    
+    .image-box {
+        height: 9.375em;
+      }
     
   }
   
   /* Para pantallas grandes (de 992px a 1199.98px) */
   @media (min-width: 992px) {
    /*margenes*/
-.m-star{
-    margin-right: 5rem !important;
-}
+    .m-star{
+        margin-right: 5rem !important;
+    }
+    .image-box {
+        height: 24.375em;
+    }
   }
   
   /* Para pantallas extra grandes (de 1200px en adelante) */
   @media (min-width: 1200px) {
    
   }
+
+
+  
