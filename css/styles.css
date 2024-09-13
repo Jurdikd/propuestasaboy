@@ -9,7 +9,7 @@
 /* Bebas-Regular */
 @font-face {
     font-family: 'Bebas';
-    src: url('../fonts/Bebas-Regular.otf') format('otf'),
+    src: url('../fonts/Bebas-Regular.woff') format('woff'),
          url('../fonts/Bebas-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
@@ -18,7 +18,8 @@
 /* Gabriola */
 @font-face {
     font-family: 'Gabriola';
-    src: url('../fonts/Gabriola.ttf') format('ttf');
+    src: url('../fonts/Gabriola.woff') format('woff'),
+         url('../fonts/Gabriola.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,7 +27,8 @@
 /* Montserrat-Regular */
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.otf') format('otf');
+    src: url('../fonts/Montserrat-Regular.woff') format('woff')
+         url('../fonts/Montserrat-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
