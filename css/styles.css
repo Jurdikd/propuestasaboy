@@ -9,16 +9,14 @@
 /* Bebas-Regular */
 @font-face {
     font-family: 'Bebas';
-    src: url('../fonts/Bebas-Regular.otf') format('otf'),
-         url('../fonts/Bebas-Regular.woff') format('woff');
+    src: url('../fonts/Bebas-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 /* Bebas-Regular M */
 @font-face {
     font-family: 'Bebas M';
-    src: url('../fonts/Bebas-Regular.ttf') format('ttf'),
-         url('../fonts/Bebas-Regular.M.woff') format('woff');
+    src: url('../fonts/Bebas-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,7 +32,7 @@
 /* Montserrat-Regular */
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.woff') format('woff')
+    src: url('../fonts/Montserrat-Regular.woff') format('woff'),
          url('../fonts/Montserrat-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
@@ -82,13 +80,15 @@
   ::-webkit-scrollbar-thumb:vertical {
     border-radius: 0 0 var(--scroll-radius) var(--scroll-radius); /* Parte inferior redondeada */
   }
-  
+  body{
+    font-family: 'Bebas', sans-serif;
+  }
  .header{
     background: 
         url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
     /*height: 100vh;*/
     margin: 0;
-    font-family: 'Bebas', sans-serif;
+    
 }
 
 .navbar {
@@ -130,6 +130,10 @@
     margin-left: 10px;
     padding: 10px 20px;
     border-radius: 25px; /* Bordes redondeados */
+}
+.navbar-toggler{
+    border: none !important;
+    background-color: #ffffff; /* Fondo blanco */
 }
 /*sections*/
 
