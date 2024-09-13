@@ -175,6 +175,13 @@
 .btn-heart:hover{
     transform: scale(1.1);
 }
+
+.footer {
+    background:linear-gradient(to right, #64CCEE, #308DC2) !important; /* Color de fondo azul claro */
+    padding: 2rem;
+}
+
+
 /* medias querys*/
 
 /* Para pantallas extra pequeñas (menos de 576px) */
