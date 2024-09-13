@@ -1,3 +1,10 @@
+/* ----------- Normalización básica ----------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header{
     background: 
         url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
@@ -104,7 +111,10 @@
 .radio-1{
     border-radius: 1em;
 }
-
+/*hv*/
+.min-vh-70{
+    min-height: 70vh !important;
+}
 /* img */
 
 .img-cover {
@@ -220,6 +230,10 @@
   
   /* Para pantallas grandes (de 992px a 1199.98px) */
   @media (min-width: 992px) {
+    .iconos-navbar {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
    /*margenes*/
     .m-star{
         margin-right: 5rem !important;
