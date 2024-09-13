@@ -4,7 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Estilos generales para el scrollbar */
+::-webkit-scrollbar {
+    width: 8px;  /* Ancho del scrollbar */
+  }
+  
+  /* Estilos de la pista del scrollbar (track) */
+  /* Scrollbar General */
+::-webkit-scrollbar {
+    width: var(--scroll-width);
+  }
+  
+  /* Estilos del track */
+  ::-webkit-scrollbar-track {
+    background-color: var(--scroll-track-color);
+    border-radius: var(--scroll-radius); /* Bordes redondeados del track */
+  }
+  
+  /* Estilos del thumb (parte desplazable) */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: var(--scroll-radius); /* Bordes redondeados en todo el thumb */
+    border: 2px solid var(--scroll-border);
+  }
+  
+  /* Estilos del thumb cuando se pasa el cursor */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scroll-thumb-hover-color);
+  }
+  
+  /* Otros navegadores */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb-color) var(--scroll-track-color);
+  }
+  
+  /* Bordes redondeados solo en la parte superior e inferior del thumb */
+  ::-webkit-scrollbar-thumb {
+    border-radius: var(--scroll-radius) var(--scroll-radius) 0 0; /* Parte superior redondeada */
+  }
+  
+  ::-webkit-scrollbar-thumb:vertical {
+    border-radius: 0 0 var(--scroll-radius) var(--scroll-radius); /* Parte inferior redondeada */
+  }
+  
+  
 .header{
     background: 
         url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
@@ -62,6 +106,9 @@
 }
 .section-2{
     margin: 0;
+}
+.cursor-pointer{
+    cursor: pointer;
 }
 .section-3{
     background: 
@@ -190,7 +237,34 @@
     background:linear-gradient(to right, #64CCEE, #308DC2) !important; /* Color de fondo azul claro */
     padding: 2rem;
 }
+/* Hacer la modal transparente */
+.modal-content {
+    border: none; /* Sin bordes */
+  }
 
+  /* Centrar el título de la modal */
+  .modal-title {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  /* Centrar la imagen en la modal */
+  .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* Estilo de la imagen */
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar la imagen */
+  }
 
 /* medias querys*/
 
