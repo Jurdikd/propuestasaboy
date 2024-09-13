@@ -9,13 +9,19 @@
 /* Bebas-Regular */
 @font-face {
     font-family: 'Bebas';
-    src: url('../fonts/Bebas-Regular.woff') format('woff'),
-         url('../fonts/Bebas-Regular.otf') format('otf'),
-         url('../fonts/Bebas-Regular.ttf') format('ttf');
+    src: url('../fonts/Bebas-Regular.otf') format('otf'),
+         url('../fonts/Bebas-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
+/* Bebas-Regular M */
+@font-face {
+    font-family: 'Bebas M';
+    src: url('../fonts/Bebas-Regular.ttf') format('ttf'),
+         url('../fonts/Bebas-Regular.M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* Gabriola */
 @font-face {
     font-family: 'Gabriola';
@@ -152,8 +158,11 @@
     margin: 0;
 }
 
-.section-title{
+.font-montserrat{
     font-family: 'Montserrat', sans-serif !important;
+}
+.font-gabriola{
+    font-family: 'Gabriola', sans-serif !important;
 }
 
 /* fonts */
