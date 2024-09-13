@@ -62,12 +62,11 @@
     /*height: 100vh;*/
     margin: 0;
 }
-.info-nutricional .row {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-}
-.info-nutricional .col-6:first-child {
-    font-weight: bold;
+.section-4{
+    background: 
+        url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
+    /*height: 100vh;*/
+    margin: 0;
 }
 /* transparencias*/
 .bg-transparent{
@@ -176,7 +175,6 @@
 .btn-heart:hover{
     transform: scale(1.1);
 }
-
 /* medias querys*/
 
 /* Para pantallas extra pequeñas (menos de 576px) */
